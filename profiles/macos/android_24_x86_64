@@ -1,0 +1,14 @@
+include(default)
+[settings]
+arch=x86_64
+build_type=Release
+compiler=clang
+compiler.libcxx=c++_shared
+os=Android
+os.api_level=24
+[conf]
+tools.android:ndk_path=~/Library/Android/sdk/ndk/25.0.8775105
+[tool_requires]
+[options]
+[env]
+CONAN_CMAKE_TOOLCHAIN_FILE=$HOME/.conan/toolchains/android_x86_64.cmake
