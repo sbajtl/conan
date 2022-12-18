@@ -3,7 +3,7 @@ include(default)
 arch=x86
 build_type=Release
 compiler=clang
-compiler.libcxx=libstdc++11
+compiler.libcxx=c++_shared
 os=Android
 os.api_level=24
 [conf]
