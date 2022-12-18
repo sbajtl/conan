@@ -1,3 +1,3 @@
 set(ANDROID_PLATFORM 24)
 set(ANDROID_ABI x86)
-include(/opt/android-sdk/ndk/current/build/cmake/android.toolchain.cmake)
+include(~/Android/sdk/ndk/25.1.8937393/build/cmake/android.toolchain.cmake)
