@@ -7,7 +7,7 @@ compiler.libcxx=c++_shared
 os=Android
 os.api_level=24
 [conf]
-tools.android:ndk_path=~/Library/Android/sdk/ndk/25.0.8775105
+tools.android:ndk_path=~/Library/Android/sdk/ndk/25.1.8937393
 [tool_requires]
 [options]
 [env]
